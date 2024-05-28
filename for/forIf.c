@@ -75,4 +75,77 @@ void main()
     printf("The total of even number is: %d\n", even);
     printf("The total of odd number is: %d", sum - even);
     */
+
+    // Take 5 numner as input and display the greatest of all
+    /*
+    int n, i, lc, gt = 0;
+    system("cls");
+    for (i = 1; i <= 5; i++)
+    {
+        printf("Enter the %d number: ", i);
+        scanf("%d", &n);
+        if (n > gt)
+        {
+            gt = n;
+            lc = i;
+        }
+    }
+    printf("The greatest number is %d and the location is %d", gt, lc);
+    */
+
+    // Take 5 number as input and display lowest of them
+    /*
+    int n, i, loc, low = 0;
+    system("cls");
+    for (i = 1; i <= 5; i++)
+    {
+        printf("Enter the value of %d number: ", i);
+        scanf("%d", &n);
+        if (i == 1)
+        {
+            low = n;
+            loc = i;
+        }
+        else
+        {
+            if (n < low)
+            {
+                low = n;
+                loc = i;
+            }
+        }
+    }
+    printf("The lowest number is %d and the location is %d", low, loc);
+    */
+
+    // Find the difference between greatest and lowest of 5 inputted numbers
+    /*
+    int i, n, m, low = 0, gt = 0;
+    system("cls");
+    for (i = 1; i <= 5; i++)
+    {
+        printf("Enter the %d number: ", i);
+        scanf("%d", &n);
+        if (n > gt)
+        {
+            gt = n;
+        }
+
+        if (i == 1)
+        {
+            low = n;
+        }
+        else
+        {
+            if (n < low)
+            {
+                low = n;
+            }
+        }
+    }
+
+    printf("The greatest number is: %d\n",gt);
+    printf("The lowest number is: %d\n",low);
+    printf("The difference between them is: %d",gt-low);
+    */
 }
