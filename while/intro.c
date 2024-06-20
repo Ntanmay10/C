@@ -389,4 +389,27 @@ void main()
         printf("The digit is not a palindrome.");
     }
     */
+
+    // Check if the inputted digit id armstrong or not
+    int n, b, sum = 0, rem = 0;
+    system("cls");
+
+    printf("Enter the digit: ");
+    scanf("%d", &n);
+    b = n;
+
+    while (n > 0)
+    {
+        rem = n % 10;
+        sum = sum + (rem * rem * rem);
+        n /= 10;
+    }
+    if (sum == b)
+    {
+        printf("The number is armstrong.");
+    }
+    else
+    {
+        printf("the number is not armstrong.");
+    }
 }
