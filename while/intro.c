@@ -325,4 +325,68 @@ void main()
     }
     printf("The sum of digit is: %d", sum);
     */
+
+    // Find the biigest digit of the given number
+    /*
+    int n, rem = 0, big = 0;
+    system("cls"); // Clears the console screen (works on Windows, clears the console output)
+
+    printf("Enter the digit: ");
+    scanf("%d", &n); // Reads an integer input from the user
+
+    while (n > 0)
+    {
+        rem = n % 10; // Extracts the last digit of n using the modulus operator
+        if (rem > big)
+        {
+            big = rem; // Updates big if the current digit (rem) is larger than the current largest digit (big)
+        }
+        n /= 10; // Removes the last digit from n (integer division by 10)
+    }
+
+    printf("Big = %d", big); // Prints the largest digit found
+    */
+
+    // Reverse the inputted number
+    /*
+    int n, rev = 0, rem;
+    system("cls");
+
+    printf("Enter the digit: ");
+    scanf("%d", &n);
+
+    while (n > 0)
+    {
+        rem = n % 10;
+        rev = rev * 10 + rem;
+        n /= 10;
+    }
+    printf("Reverse of the digit is: %d", rev);
+    */
+
+    // Check if the inputted digit is pelindrome or not
+    /*
+    int n, b, rem = 0, rev = 0;
+    system("cls");
+
+    printf("Enter the digit: ");
+    scanf("%d", &n);
+    b = n;
+
+    while (n > 0)
+    {
+        rem = n % 10;
+        rev = (rev * 10) + rem;
+        n /= 10;
+    }
+
+    if (b == rev)
+    {
+        printf("The digit is a palindrome.");
+    }
+    else
+    {
+        printf("The digit is not a palindrome.");
+    }
+    */
 }
