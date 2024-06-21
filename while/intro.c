@@ -391,6 +391,7 @@ void main()
     */
 
     // Check if the inputted digit id armstrong or not
+    /*
     int n, b, sum = 0, rem = 0;
     system("cls");
 
@@ -412,4 +413,25 @@ void main()
     {
         printf("the number is not armstrong.");
     }
+    */
+
+    // Find the smallest digit of the inputted number
+    /*
+    int n, small = 9, rem = 0;
+    system("cls");
+
+    printf("Enter the number: ");
+    scanf("%d", &n);
+
+    while (n > 0)
+    {
+        rem = n % 10;
+        if (rem < small)
+        {
+            small = rem;
+        }
+        n /= 10;
+    }
+    printf("The smallest digit is %d", small);
+    */
 }
