@@ -76,4 +76,68 @@ void main()
         printf("No vowels found in the string");
     }
     */
+
+    // convert the given sentence to sentence case if not
+    /*
+    char sent[50];
+    system("cls");
+
+    printf("Enter your sentence: ");
+    gets(sent);
+
+    if(sent[0]>=97 && sent[0]<=122)
+    sent[0]-=32;
+
+    puts(sent);
+    */
+
+    // search and replace characters in the inputted string
+    /*
+    int i = 0;
+    char str[50], sr, rp;
+    system("cls");
+
+    printf("Enter your string: ");
+    gets(str);
+
+    printf("Enter the character to be replaced: ");
+    scanf(" %c", &sr);
+
+    printf("Enter the character to be replaced with: ");
+    scanf(" %c", &rp);
+
+    while (str[i] != '\0')
+    {
+        if (str[i] == sr)
+        {
+            str[i] = rp;
+        }
+        i++;
+    }
+    printf("The modified string is: %s", str);
+    */
+
+    // Disply the actual and the reversed string inputted by the user
+
+    int i = 0, j = 0, len = 0;
+    char str[50], rev[50];
+    system("cls");
+
+    printf("Enter the string: ");
+    gets(str);
+
+    while (str[i] != '\0')
+    {
+        len++;
+        i++;
+    }
+
+    for (i = 1; i <= len; i++)
+    {
+        rev[j] = str[len - i];
+        j++;
+    }
+    rev[j] = '\0';
+    printf("The string is %s\n", str);
+    printf("The reversed string is %s", rev);
 }
