@@ -35,9 +35,11 @@ void main()
     str3 = "Tanmay"  // False
     str3[7] = "Tanmay"  // False
     char str4[20] = "Tanmay"; // True
+    char str5[20] = {'T','A','N','M','A','Y'}; // True
     system("cls");
 
     printf("%s", str4);
+    printf("%s", str5);
     */
 
     // Example 2: Scanning input from the user and welcoming the user
