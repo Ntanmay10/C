@@ -47,36 +47,6 @@ void main()
     }
     */
 
-    // Find vowels from the given string
-    /*
-    int i = 0, vo = 0;
-    char name[50], vow[50];
-    system("cls");
-
-    printf("Enter your name: ");
-    gets(name);
-
-    while (name[i] != '\0')
-    {
-        if (name[i] == 'a' || name[i] == 'e' || name[i] == 'i' || name[i] == 'o' || name[i] == 'u' || name[i] == 'A' || name[i] == 'E' || name[i] == 'I' || name[i] == 'O' || name[i] == 'U')
-        {
-            vow[vo] = name[i];
-            vo++;
-        }
-        i++;
-    }
-    vow[vo] = '\0';
-    if (vo > 0)
-    {
-        printf("The total number of vowels in the string are: %d\n", vo);
-        printf("The vowels in the string are: %s", vow);
-    }
-    else
-    {
-        printf("No vowels found in the string");
-    }
-    */
-
     // convert the given sentence to sentence case if not
     /*
     char sent[50];
@@ -90,54 +60,4 @@ void main()
 
     puts(sent);
     */
-
-    // search and replace characters in the inputted string
-    /*
-    int i = 0;
-    char str[50], sr, rp;
-    system("cls");
-
-    printf("Enter your string: ");
-    gets(str);
-
-    printf("Enter the character to be replaced: ");
-    scanf(" %c", &sr);
-
-    printf("Enter the character to be replaced with: ");
-    scanf(" %c", &rp);
-
-    while (str[i] != '\0')
-    {
-        if (str[i] == sr)
-        {
-            str[i] = rp;
-        }
-        i++;
-    }
-    printf("The modified string is: %s", str);
-    */
-
-    // Disply the actual and the reversed string inputted by the user
-
-    int i = 0, j = 0, len = 0;
-    char str[50], rev[50];
-    system("cls");
-
-    printf("Enter the string: ");
-    gets(str);
-
-    while (str[i] != '\0')
-    {
-        len++;
-        i++;
-    }
-
-    for (i = 1; i <= len; i++)
-    {
-        rev[j] = str[len - i];
-        j++;
-    }
-    rev[j] = '\0';
-    printf("The string is %s\n", str);
-    printf("The reversed string is %s", rev);
 }
