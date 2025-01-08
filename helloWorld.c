@@ -6,5 +6,5 @@
 void main()
 {
   system("cls");
-  printf("hello world");
+  printf("Hello, World!");
 }
