@@ -11,7 +11,7 @@ void main()
     system("cls");
     printf("Enter A and B :");
     scanf("%d %d",&a,&b);
-    printf("Addition is:%d",a+b);
+    printf("Addition of A and B is:%d",a+b);
     */
 
     // method 2: Variable overriding
@@ -21,7 +21,7 @@ void main()
     printf("Enter A and B :");
     scanf("%d %d", &a, &b);
     a = a + b;
-    printf("Addition is:%d", a);
+    printf("Addition of A and B is:%d", a);
     */
 
     // method 3: Declaring additional variable
@@ -31,6 +31,6 @@ void main()
     printf("Enter A and B :");
     scanf("%d %d", &a, &b);
     add = a + b;
-    printf("Addition is:%d", add);
+    printf("Addition of A and B is:%d", add);
     */
 }
