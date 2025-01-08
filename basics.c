@@ -5,7 +5,7 @@
 void main()
 {
     system("cls");
-    printf("Hello world!!!");
+    printf("Hello, World!!!");
     // printf() is a function that is used to display value to the moniter
     /*
     printf("typrSpecifier","value/variableName")
