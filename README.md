@@ -1,5 +1,3 @@
-Here's a sample README.md file for your C language tutorial repository:
-
 # C Language Tutorial
 
 Welcome to the **C Language Tutorial** repository! This repository is designed to help you learn and master C programming from the basics to advanced topics. Whether you are a beginner or looking to enhance your skills, this tutorial will guide you through various concepts and practical examples.
