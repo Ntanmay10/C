@@ -8,9 +8,9 @@ void main()
     float sal, bonus, netSal;
     system("cls");
 
-    printf("Enter Salary:");
+    printf("Enter Salary: ");
     scanf("%f", &sal);
-    printf("Enter Bonus:");
+    printf("Enter Bonus: ");
     scanf("%f", &bonus);
 
     netSal = sal + (sal * (bonus / 100));
