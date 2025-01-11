@@ -17,7 +17,7 @@ void main()
 {
     int n;
     system("cls");
-    printf("Enter the value of N:");
+    printf("Enter the value of N: ");
     scanf("%d", &n);
     printf("%d", n);
     // Checking the range of n
