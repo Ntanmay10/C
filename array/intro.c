@@ -38,7 +38,7 @@ void main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Enter the value of a[%d]: ", i);
+        printf("Enter the value for a[%d]: ", i);
         scanf("%d", &a[i]);
     }
 
