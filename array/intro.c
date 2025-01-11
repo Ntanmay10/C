@@ -17,7 +17,7 @@ void main()
     a[0]=15;
     a[1]=20;
     a[2]=30;
-    a[3]=a[2]+a[1];
+    a[3]=a[0]+a[1];
     a[4]=50;
     printf("The value of a[0] is %d\n",a[0]);
     printf("The value of a[1] is %d\n",a[1]);
