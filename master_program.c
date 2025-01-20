@@ -17,7 +17,7 @@ struct data
 
 typedef struct data dta;
 
-// Initialize the array of structures with data
+// Initializing the array of structures with data
 dta a[3] = {
     {1, "Tanmay", "Amar", "Naik", "Samrawadi", "BCA", 'M'},
     {2, "Chirag", "Dilip", "Patel", "Vijalpor", "BBA", 'M'},
