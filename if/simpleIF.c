@@ -5,7 +5,7 @@
 /*
 if()
 {
-    statement to be executed
+    statement(s) to be executed
 }
 */
 #include<stdlib.h>
@@ -17,15 +17,15 @@ void main()
 {
     int n;
     system("cls");
-    printf("Enter the value of N: ");
+    printf("Enter the value for N: ");
     scanf("%d", &n);
     printf("%d", n);
     // Checking the range of n
     /*
     if (n >= 5)
     {
-        // Here if the above statement becomes false then the loop will break and will exit
-        // If the condition is true than the below message will br shown to the user.
+        // Here if the above statement becomes false then the loop will break and will exit.
+        // If the condition is true than the below print statement will be executed and the message will be shown on the display.
         printf("%d is greater or equal to 5", n);
     }
     */
